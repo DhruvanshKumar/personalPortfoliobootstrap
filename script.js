@@ -4,3 +4,6 @@ function downloadResume(){
     link.download = 'Dhruvansh_Resume.pdf';
     link.click();
 }
+function scrollToSection() {
+    document.getElementById("about").scrollIntoView({behavior:"smooth"});
+}
