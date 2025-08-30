@@ -4,3 +4,14 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    padding-top: 80px; /* space for fixed navbar */
+}
+.navbar-icons a {
+    color: white; 
+    margin-left: 15px;
+    transition: color 0.2s;
+}
+.navbar-icons a:hover {
+    color: #0d6efd; /* Bootstrap primary blue */
+}
